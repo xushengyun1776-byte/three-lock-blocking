@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Media artifacts (never commit generated output)
+*.mp4
+*.mov
+*.flac
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Job/QC temp dirs
+tmp_*/
+jobs/
+qc_/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+token.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
